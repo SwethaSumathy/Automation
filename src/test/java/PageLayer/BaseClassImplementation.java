@@ -13,7 +13,7 @@ public class BaseClassImplementation {
 	@BeforeTest
 	public void browserSetup()
 	{
-
+                System.out.ptintln("first");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
